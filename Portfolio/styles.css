@@ -1,0 +1,149 @@
+:root {
+    --background-white: #ffffff;
+    --background-dark: #000000e1;
+    --background-section: #02c6f7de;
+    --background-purple: #4f176d;
+    --background-less-white: #F5F4FA;
+    --background-button-focused: #00c1f7;
+    --hovered-text-color: #00c1f7;
+    --focused-text-color: #00c1f7;
+    --color-text-main: #212121;
+    --color-text-header: #ffffff;
+    --color-text-footer: #ffffff;
+    --address-color: #757575;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    color: var(--color-text-main);    
+    font-family: 'Roboto', sans-serif;/*Треба якийсь вибрати або це підключити*/
+    
+    background: var(--background-white);
+}
+
+main{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+}
+
+section{
+    margin: 0.5%;
+    border-radius: 10px;
+
+    background: var(--background-section);
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text-header);
+}
+
+.header-link:hover {
+    color: var(--hovered-text-color);
+}
+
+.header-link:focus {
+    color: var(--focused-text-color);
+}
+
+.header-link.current {
+    color: #2196F3;
+}
+
+footer{
+    flex: 0 0 auto;
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-text-header);
+}
+
+.footer-link:hover {
+    color: var(--hovered-text-color);
+}
+
+.footer-link:focus {
+    color: var(--focused-text-color);
+}
+
+.footer-link.white:hover {
+    color: var(--hovered-text-color);
+}
+
+.footer-link.white:focus {
+    color: var(--focused-text-color);
+}
+
+header {
+    background: var(--background-purple);
+}
+
+footer {
+    background: var(--background-purple);
+}
+
+.footer-images{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+    border-radius: 10px;
+}
+
+.copirate{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    color: var(--color-text-footer);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.castom-list-style {
+    list-style: none;
+}
+

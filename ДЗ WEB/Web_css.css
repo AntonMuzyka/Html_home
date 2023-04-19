@@ -1,0 +1,169 @@
+body{
+  background-color: #222222;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+h1#name_site{
+  color: #999999;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+ul#menu li{
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+#menu a{
+  text-decoration: none;
+  color: #5B5650;
+  padding: 10px 15px;
+  display: block;
+}
+
+#menu a:hover{
+  background-color: #F04F24;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.heder{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.heder div{
+  width: 1024px;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.heder ul{
+  width: 50%;
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+}
+
+.photo img{
+  width: 1024px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+#content{
+  display: flex;
+  justify-content: center;
+}
+
+#content div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 25px;
+  padding: 0px 25px;
+  width: 975px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  color: #565553;
+}
+
+#content a{
+  color: #565553;
+}
+
+#interesting_pages{
+  display: flex;
+  justify-content: center;
+/*   border: solid; */
+}
+
+#interesting_pages div{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1024;
+  height: auto;
+/*   border: solid; */
+}
+
+#interesting_pages div{
+  width: 300px;
+  margin: 28px;
+/*   border: solid; */
+}
+
+article{
+  line-height: 150%;
+  color: #606062;
+  margin: 20px 0px
+}
+
+img{
+  border-radius: 15px;
+}
+
+#interesting_pages a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 15px;
+  background-color: #000000;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+}
+
+#another{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+/*   border: solid; */
+}
+
+#another div{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 1024;
+  height: auto;
+/*   border: solid; */
+}
+
+#another div{
+  width: 300px;
+  margin: 28px;
+/*   border: solid; */
+}
+
+hr{
+  color: #171717;
+}
+
+#another article{
+  text-shadow: #000000 2px 5px;
+/*   border: solid; */
+}
